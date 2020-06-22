@@ -71,8 +71,6 @@ M = cv.getPerspectiveTransform(box32,target)
 change = cv.warpPerspective(img,M,(400,120))
 
 
-plt.imshow(change)
-plt.show()
-cv.imshow('100',change)
+cv.imshow('result',change)
 cv.waitKey(0)
 cv.destroyAllWindows()
