@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 kernel = np.ones((3,3),np.uint8)
 
-
+#读入图片(read image)
 img = cv.imread('test7.jpg')
 print(img.shape)
 
